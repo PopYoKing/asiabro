@@ -1,0 +1,396 @@
+ideas = {
+
+	country = {
+		SIA_japanese_investments = {
+			picture = generic_foreign_capital
+			
+			allowed = {
+			original_tag = SIA	
+			}
+			
+			available 
+		
+			cost = 0  
+		
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 0
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.15
+			}
+		}
+	}
+	
+	country = {
+		royal_siamese_army = {
+		picture = man_militarism
+			
+			allowed = {
+			original_tag = SIA
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			modifier = {
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+				special_forces_min = 12
+			}	
+		}
+	}
+		
+	country = {
+		naval_build_up = {
+			picture = generic_navy_bonus
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			modifier = { 
+				production_speed_dockyard_factor = 0.1
+				industrial_capacity_dockyard = 0.15
+				}
+			}
+		}
+	
+	country = {
+		JAP_tank_maker = {
+		picture = generic_acquire_tanks
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			equipment_bonus = {
+				heavy_tank_chassis = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			light_tank_chassis = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			medium_tank_chassis = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+				}
+			}
+		}
+		
+		country = {
+		yellow_death = {
+		picture = chi_chinese_support
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = 0.2
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = PRC
+				attack_bonus_against = 0.2
+				defense_bonus_against = 0.15
+			}
+		}
+	}
+	
+	country = {
+		red_death = {
+		picture = raj_all_india_forward_bloc_fascism
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			targeted_modifier = {
+				tag = RAJ
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = AST
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
+			}
+		}
+	}
+	
+	country = {
+		blue_death = {
+		picture = generic_usa_conflict
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			targeted_modifier = {
+				tag = USA
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.1
+			}
+		}
+	}
+	
+	country = {
+		JAP_truck_force = {
+		picture = FRA_motorized_focus
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			modifier = {
+				motorized_attack_factor = 0.1
+				motorized_defence_factor = 0.1
+				mechanized_attack_factor = 0.1
+				mechanized_defence_factor = 0.1
+			}	
+		}
+	}
+	
+	country = {
+		JAP_tank_force = {
+		picture = generic_acquire_tanks
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			modifier = {
+				army_armor_attack_factor = 0.1
+				army_armor_defence_factor = 0.05
+			}	
+		}
+	}
+	
+	country = {
+		JAP_fire_power = {
+		picture = generic_artillery_regiments
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			modifier = {
+				army_artillery_attack_factor = 0.15
+				army_artillery_defence_factor = 0.1
+			}	
+		}
+	}
+	
+	country = {
+		JAP_rail_power = {
+		picture = SWE_let_fly_all_guns
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			modifier = {
+				railway_gun_bombardment_factor = 0.1
+				}	
+			equipment_bonus = {
+				railway_gun = {
+					instant = yes
+					build_cost_ic = 0.2
+				}
+			}
+		}
+	}
+	
+	country = {
+		JAP_tip_of_the_sword = {
+		picture = FRA_scw_intervention_nationalists_focus
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			modifier = {
+				naval_invasion_prep_speed = 0.5
+				naval_invasion_capacity = 12
+				naval_invasion_planning_bonus_speed = 0.2
+				navy_max_range_factor = 0.05
+			}	
+		}
+	}
+	
+	country = {
+		JAP_edge_of_the_axe = {
+		picture = gre_political_instability_metaxism
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			modifier = {
+			land_night_attack = 0.2
+			special_forces_attack_factor = 0.1
+			air_superiority_bonus_in_combat = 0.05
+			cas_damage_reduction = 0.1
+			}	
+		}
+	}
+	
+	country = {
+		JAP_Kempeitai = {
+		picture = generic_spy_political
+			
+			allowed = {
+			original_tag = JAP
+			}
+			
+			available
+			
+			cost = 0
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = 0
+			
+			
+			modifier = {
+			operative_slot = 1
+			intel_network_gain_factor = 0.1
+			}	
+		}
+	}
+}
