@@ -1,0 +1,73 @@
+﻿l_english:
+ #Opinion modifiers
+
+
+JAP_japanese_fire_power:0 "Japenese Firepower"
+JAP_japanese_fire_power_desc:0 ""
+
+JAP_fire_power:0 "Firepower"
+JAP_fire_power_desc:0 ""
+
+JAP_japanese_rail_power:0 "Japenese Railpower"
+JAP_japanese_rail_power_desc:0 ""
+
+JAP_rail_power:0 "Railpower"
+JAP_rail_power:0 ""
+
+JAP_hand_over_indochina:0 "Handover IndoChina"
+JAP_hand_over_indochina_desc:0 "something for the loyalty of the siamese"
+
+JAP_yellow_death:0 "Yellow Death"
+JAP_yellow_death_desc:0 ""
+
+JAP_red_death:0 "Red Death"
+JAP_red_death_desc:0 ""
+
+JAP_blue_death:0 "Blue Death"
+JAP_blue_death_desc:0 ""
+
+JAP_japanese_intelligence:0 "Japenese Intelligence"
+JAP_japanese_intelligence_desc:0 ""
+
+JAP_Kempeitai:0 "Kempeitai"
+JAP_Kempeitai_desc:0 ""
+
+JAP_united_sushi_front:0 "United Sushi Front"
+JAP_united_sushi_front_desc:0 ""
+
+JAP_marco_polo:0 "Marco Polo"
+JAP_marco_polo_desc:0 ""
+
+JAP_secure_china2:0 "Secure China"
+JAP_secure_china2_desc:0 ""
+
+naval_build_up:0 "Naval Build UP"
+naval_build_up_desc:0 ""
+
+JAP_create_a_manchurian_imperial_navy:0 "Create A Manchurian Imperial Navy"
+JAP_create_a_manchurian_imperial_navy_desc:0 ""
+
+JAP_tip_of_the_sword:0 "Tip Of The Sword"
+JAP_tip_of_the_sword_desc:0 ""
+
+JAP_edge_of_the_axe:0 "Edge Of The Axe"
+JAP_edge_of_the_axe_desc:0 ""
+
+JAP_tank_maker:0 "Mass Tank Production"
+JAP_tank_maker_desc:0 ""
+
+JAP_truck_force:0 "Truck Force"
+JAP_truck_force_desc:0 ""
+
+JAP_tank_force:0 "Tank Force"
+JAP_tank_force_desc:0 ""
+
+JAP_eat_the_weak:0 "Eat The Weak"
+JAP_eat_the_weak_desc:0 ""
+
+JAP_free_the_slave:0 "Free The Slave"
+JAP_free_the_slave_desc:0 ""
+
+royal_siamese_army:0 "Royal Siamese Army"
+
+SIA_japanese_investments:0 "Japanese Investments"
